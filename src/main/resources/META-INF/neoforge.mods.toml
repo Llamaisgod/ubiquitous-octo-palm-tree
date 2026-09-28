@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="skyblock_bridge"
+version="3.0.0"
+displayName="Skyblock Bridge"
+description='''Skyblock recipes for Create, Mekanism, Draconic Evolution and addons: raw metals and materials from stone, unheated copies of heated recipes, and renewable netherrack/basalt/end stone. Every recipe is conditional on its source mod.'''
+
+[[dependencies.skyblock_bridge]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.219,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.skyblock_bridge]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,41 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "id": "minecraft:redstone",
+      "chance": 0.35
+    },
+    {
+      "id": "cgs:raw_lead",
+      "chance": 0.15
+    },
+    {
+      "id": "minecraft:coal",
+      "chance": 0.2
+    },
+    {
+      "id": "minecraft:lapis_lazuli",
+      "chance": 0.1
+    },
+    {
+      "id": "create:crushed_raw_zinc",
+      "chance": 0.1
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cgs"
+    }
+  ]
+}

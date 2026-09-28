@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "count": 3,
+    "item": "minecraft:granite"
+  },
+  "output": {
+    "count": 1,
+    "id": "mekanism:raw_lead"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
+}
